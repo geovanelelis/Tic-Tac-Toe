@@ -3,7 +3,6 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>
 </p>
 
 <br>
@@ -32,10 +31,6 @@ Funcionalidades Principais:
 - Vitória e Empate: O jogo detecta automaticamente quando um jogador vence ou se a partida termina em empate, proporcionando uma experiência de jogo completa.
 
 Explore a diversão clássica do Jogo da Velha com um toque moderno e interativo!
-
-## 🔖 Layout
-
-Você pode visualizar o layout usado como referência para este projeto através [DESSE LINK](<https://dribbble.com/shots/14709020-Calculator>).
 
 ## :memo: Licença
 
