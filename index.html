@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/097f562643.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Jogo da Véia</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="title">JOGO DA VÉIA</h1>
+        <section class="name-players">
+          <div class="player1">
+            <label for="player1">PLAYER <span>X</span></label> <br />
+            <input type="text" id="player1" placeholder="Nome do Jogador 1" />
+          </div>
+          <div class="player2">
+            <label for="player2">PLAYER <span>O</span></label> <br />
+            <input type="text" id="player2" placeholder="Nome do Jogador 2" />
+          </div>
+        </section>
+        <button id="start-button">START</button>
+        <h2>Vez de: <span id="turnPlayer"></span></h2>
+      </header>
+      <div id="game">
+        <span class="cursor-pointer" data-region="0.0" id="b-sup-esq"></span>
+        <span class="cursor-pointer" data-region="0.1"></span>
+        <span class="cursor-pointer" data-region="0.2" id="b-sup-dir"></span>
+        <span class="cursor-pointer" data-region="1.0"></span>
+        <span class="cursor-pointer" data-region="1.1"></span>
+        <span class="cursor-pointer" data-region="1.2"></span>
+        <span class="cursor-pointer" data-region="2.0" id="b-inf-esq"></span>
+        <span class="cursor-pointer" data-region="2.1"></span>
+        <span class="cursor-pointer" data-region="2.2" id="b-inf-dir"></span>
+      </div>
+    </main>
+  </body>
+</html>
